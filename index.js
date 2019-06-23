@@ -10,7 +10,6 @@ function prohibitedLanguage(username) {
  var str2 = "brusselssprouts"
  
  if (username.search(str1) !== -1) 
- 
  {
     return username.search(str1);
  }
