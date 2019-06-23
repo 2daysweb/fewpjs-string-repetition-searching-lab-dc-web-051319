@@ -6,9 +6,16 @@ function heyJude(){
 
 function prohibitedLanguage(username) {
   
-  let myRegExp = (\candycorn\,\brusselssprouts\);
+ var str1 = "candycorn"
+ var str2 = "brusselssprouts"
+ 
+ if username.search(str1) !== -1 
+    return username.search(str1)
+  elsif username.search(str2) !== -1 
+    return username.search(str2)
+ return username.search()
   
-  return myRegExp.test(username);
+  
  
  
 }
