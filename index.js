@@ -13,7 +13,8 @@ function prohibitedLanguage(username) {
     return username.search(str1)
   elsif username.search(str2) !== -1 
     return username.search(str2)
- return username.search()
+  else 
+    return -1
   
   
  
