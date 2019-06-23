@@ -9,14 +9,17 @@ function prohibitedLanguage(username) {
  var str1 = "candycorn"
  var str2 = "brusselssprouts"
  
- if username.search(str1) !== -1 
-    return username.search(str1)
-  elsif username.search(str2) !== -1 
-    return username.search(str2)
-  else 
-    return -1
+ if (username.search(str1) !== -1) 
+ 
+ {
+    return username.search(str1);
+ }
+  elsif (username.search(str2) !== -1) 
   
-  
+  { 
+    return username.search(str2);
+  }
+    return -1;
+} 
  
  
-}
